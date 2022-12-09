@@ -3,12 +3,12 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * 
- * Description: 'the program's description'
- * 
- * Return: Always 0 (Success)
- */
+* main - Entry point
+* 
+* Description: 'the program's description'
+* 
+* Return: Always 0 (Success)
+*/
 
 /* more headers goes there */
 

@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <ctype.h>
 /**
 * main - Entry point
 *
@@ -10,16 +10,15 @@
 
 int main(void)
 {
-	char letter;
+	int x;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-		putchar(letter);
-
-	for (letter = 'A'; letter <= 'Z'; letter++)
-		putchar(letter);
+	for (x = 'a'; x <= 'z'; x++)
+	{
+		if (x != 'q' && x != 'e')
+			putchar(tolower(x));
+	}
 
 	putchar('\n');
 
 	return (0);
 }
-
